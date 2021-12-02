@@ -5,16 +5,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px;
-  /* height: 1000px; */
+  margin-top: 280px;
 `;
 
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  margin-top: 60px;
   width: 1600px;
-  /* height: 700px; */
-  margin-top: 100px;
 `;
 
 export const Flexing = styled.div`

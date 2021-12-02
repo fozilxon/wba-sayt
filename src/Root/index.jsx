@@ -1,19 +1,23 @@
 import React from "react";
-import Body from "../Component/Body";
+//Component
+
 import Navbar from "../Component/Navbar";
-import OurPartners from "../Component/OurPartners";
-import OurTime from "../Component/OurTime";
-import Yutuqlar from "../Component/Yutuqlar";
+
+import Login from "../Component/Login";
+import SignUp from "../Component/SignUp";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import OnePage from "../Page/onePage";
+import TwoPage from "../Page/twoPage";
 
 export const Root = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Body />
-      <OurTime />
-      <OurPartners />
-      <Yutuqlar />
-    </div>
+      <Route exact path="/" component={OnePage} />
+      <Route path="/team" component={TwoPage} />
+      <Route path="/login" component={Login} />
+      <Route path="/signUp" component={SignUp} />
+    </Router>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Btn, Container, Text, Img } from "./style";
 
-export const CardHomiylar = ({ img }) => {
+export const CardHomiylar = ({ img, link }) => {
   return (
     <Container>
       <Img src={img} alt="logo" />
@@ -11,7 +11,9 @@ export const CardHomiylar = ({ img }) => {
         laoreet. Placerat dolor in dui, dignissim imperdiet malesuada felis
         neque.{" "}
       </Text>
-      <Btn>See Story</Btn>
+      <a href={link} target="_blank">
+        <Btn>See Story</Btn>
+      </a>
     </Container>
   );
 };

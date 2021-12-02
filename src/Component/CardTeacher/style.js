@@ -13,6 +13,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 130px 0px 0px 0px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 `;
 
 export const Circle = styled.div`
@@ -35,6 +37,12 @@ export const Img = styled.img`
   width: 185px;
   height: 185px;
   border-radius: 50%;
+  transition: all 0.5s;
+  cursor: grab;
+  :hover {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const Text = styled.div`

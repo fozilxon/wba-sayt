@@ -18,10 +18,24 @@ export const CardTeacher = ({ img, status, name }) => {
       </Text>
 
       <Flexing>
-        <Icons src={cardFacebook} alt="icon" />
-        <Icons src={cardInstagram} alt="icon" />
-        <Icons src={cardYoutobe} alt="icon" />
-        <Icons src={cardGithub} alt="icon" />
+        <a
+          href="https://www.facebook.com/search/top?q=webbrain%20academy"
+          target="_blank"
+        >
+          <Icons src={cardFacebook} alt="icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/webbrain_academy/?hl=ru"
+          target="_blank"
+        >
+          <Icons src={cardInstagram} alt="icon" />
+        </a>
+        <a href="https://www.youtube.com/c/WebBrainAcademy" target="_blank">
+          <Icons src={cardYoutobe} alt="icon" />
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <Icons src={cardGithub} alt="icon" />
+        </a>
       </Flexing>
 
       <Text width small>

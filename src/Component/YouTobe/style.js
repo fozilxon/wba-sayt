@@ -6,14 +6,11 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 250px;
-  /* height: 1000px; */
 `;
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: center;
   width: 1600px;
-  /* height: 700px; */
   margin-top: 100px;
 `;
 

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 200px;
 `;
 
 export const Box = styled.div`
@@ -24,25 +24,28 @@ export const Box = styled.div`
   margin-top: 30px;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const Circle = styled.div`
   background: #e6e7ee;
   box-shadow: -5px -5px 8px #ffffff, 5px 5px 8px rgba(13, 39, 80, 0.16);
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
-export const Img = styled.div`
-  width: 50px;
-  height: 70px;
+export const Img = styled.img`
+  width: 40px;
+  height: 40px;
 `;
 
 export const Word = styled.div`
-  font-size: 20px;
-  margin-bottom: 15px;
-  font-weight: bold;
+  font-size: ${({ large }) => (large ? "40px" : "24px")};
+  margin-bottom: 1px;
+  font-weight: ${({ large }) => (large ? "600" : "normal")};
 `;

@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const Wrapper = styled.div`
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -9,6 +17,7 @@ export const Container = styled.div`
   height: 800px;
   width: 500px;
   background: #e6e7ee;
+  margin-top: 80px;
 `;
 
 export const Title = styled.h1`

@@ -39,9 +39,6 @@ export const Item = styled.a`
   margin-right: 35px;
   font-size: 18px;
   cursor: pointer;
-  :hover {
-    color: #2d4cc8;
-  }
 `;
 
 export const Btn = styled.div`
