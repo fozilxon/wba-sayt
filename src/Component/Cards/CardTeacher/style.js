@@ -15,6 +15,10 @@ export const Container = styled.div`
   padding: 130px 0px 0px 0px;
   margin-top: 100px;
   margin-bottom: 50px;
+  transition: all 0.4s;
+  :hover {
+    box-shadow: -5px -5px 20px #ffffff, 20px 20px 12px rgba(13, 39, 80, 0.16);
+  }
 `;
 
 export const Circle = styled.div`
@@ -66,4 +70,5 @@ export const Icons = styled.img`
   margin-right: 10px;
   margin-top: 20px;
   margin-bottom: 10px;
+  fill: red;
 `;

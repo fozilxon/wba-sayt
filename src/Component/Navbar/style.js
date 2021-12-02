@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Conatiner = styled.div`
   width: 100%;
-  height: 110px;
+  height: 95px;
   background: #e6e7ee;
   box-shadow: 0px 4px 20px rgba(13, 39, 80, 0.1);
   display: flex;
@@ -39,6 +39,9 @@ export const Item = styled.a`
   margin-right: 35px;
   font-size: 18px;
   cursor: pointer;
+  :hover {
+    color: blue;
+  }
 `;
 
 export const Btn = styled.div`
@@ -55,9 +58,8 @@ export const Btn = styled.div`
   cursor: pointer;
   transition: all 0.4s;
   :hover {
-    box-shadow: inset -5px -5px 8px rgba(255, 255, 255, 0.64),
-      inset 5px 5px 8px rgba(13, 39, 80, 0.16);
+    box-shadow: -10px -10px 15px #ffffff, 10px 10px 15px rgba(13, 39, 80, 0.16);
     width: 205px;
-    height: 60px;
+    height: 57px;
   }
 `;

@@ -14,6 +14,10 @@ export const Container = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 5px 0px;
+  transition: all 0.4s;
+  :hover {
+    box-shadow: -10px -10px 8px #ffffff, 20px 20px 12px rgba(13, 39, 80, 0.16);
+  }
 `;
 
 export const Img = styled.img`

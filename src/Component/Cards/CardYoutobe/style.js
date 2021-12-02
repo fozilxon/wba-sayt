@@ -33,6 +33,10 @@ export const BigContainer = styled.div`
   border-radius: 8px;
   width: 100%;
   height: 100%;
+  transition: all 0.4s;
+  :hover {
+    box-shadow: -10px -10px 8px #ffffff, 15px 15px 7px rgba(13, 39, 80, 0.16);
+  }
 `;
 
 export const Container = styled.div`
@@ -45,4 +49,7 @@ export const Container = styled.div`
   margin-right: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  :hover {
+    box-shadow: -5px -5px 8px #ffffff, 15x 15px 7px rgba(13, 39, 80, 0.16);
+  }
 `;

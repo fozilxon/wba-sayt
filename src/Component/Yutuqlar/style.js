@@ -37,6 +37,12 @@ export const Circle = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s;
+  :hover {
+    box-shadow: -8px -8px 8px #ffffff, 8px 8px 8px rgba(13, 39, 80, 0.16);
+    width: 130px;
+    height: 130px;
+  }
 `;
 
 export const Img = styled.img`

@@ -13,6 +13,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  transition: all 0.4s;
+  :hover {
+    box-shadow: -5px -5px 8px #ffffff, 20px 20px 12px rgba(13, 39, 80, 0.16);
+  }
 `;
 
 export const Img = styled.img`

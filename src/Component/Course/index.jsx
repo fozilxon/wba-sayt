@@ -14,7 +14,7 @@ import Carousel from "react-elastic-carousel";
 import Sardorbek from "../../assets/img/Sardorbek.png";
 import Zohidjon from "../../assets/img/Zohidjon.png";
 import Hamzatbek from "../../assets/img/Hamzatbek.png";
-import OnlineCourseCard from "../OnlineCourseCard";
+import OnlineCourseCard from "../Cards/OnlineCourseCard";
 import Footer from "../Footer";
 
 const breakPoints = [{ width: 1200, itemsToShow: 3 }];

@@ -1,9 +1,9 @@
 import React from "react";
 import { Circle, Container, Flexing, Icons, Img, Text } from "./style";
-import cardFacebook from "../../assets/icon/cardFacebook.svg";
-import cardGithub from "../../assets/icon/cardGithub.svg";
-import cardYoutobe from "../../assets/icon/cardYoutobe.svg";
-import cardInstagram from "../../assets/icon/cardInstagram.svg";
+import cardFacebook from "../../../assets/icon/cardFacebook.svg";
+import cardGithub from "../../../assets/icon/cardGithub.svg";
+import cardYoutobe from "../../../assets/icon/cardYoutobe.svg";
+import cardInstagram from "../../../assets/icon/cardInstagram.svg";
 
 export const CardTeacher = ({ img, status, name }) => {
   return (

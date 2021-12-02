@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 80%;
+  width: 1600px;
   height: 600px;
-  background: #e6e7ee;
   box-shadow: -5px -5px 8px #ffffff, 5px 5px 8px rgba(13, 39, 80, 0.16);
   border-radius: 8px;
   display: flex;
   margin-top: 200px;
+  cursor: pointer;
 `;
 
 export const Box = styled.div`

@@ -1,5 +1,5 @@
 import React from "react";
-import CardHomiylar from "../CardHomiylar";
+import CardHomiylar from "../Cards/CardHomiylar";
 import { Container, Wrapper, Flexing, Title, Img, Div } from "./style";
 import airbnb from "../../assets/icon/airbnb.svg";
 import paypal from "../../assets/icon/paypal.svg";

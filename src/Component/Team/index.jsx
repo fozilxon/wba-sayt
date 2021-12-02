@@ -1,5 +1,5 @@
 import React from "react";
-import CardTeam from "../CardTeam";
+import CardTeam from "../Cards/CardTeam";
 import { Wrapper } from "./style";
 import Sardorbek from "../../assets/img/Sardorbek.png";
 import Hamzatbek from "../../assets/img/Hamzatbek.png";

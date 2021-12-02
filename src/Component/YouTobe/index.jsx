@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Div, Flexing, Img, Title, Wrapper } from "./style";
 import more from "../../assets/icon/more.svg";
-import CardYoutobe from "../CardYoutobe";
+import CardYoutobe from "../Cards/CardYoutobe";
 
 export const Youtobe = () => {
   return (

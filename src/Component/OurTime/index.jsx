@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Div, Flexing, Img, Title, Wrapper } from "./style";
-import CardTeacher from "../CardTeacher";
+import CardTeacher from "../Cards/CardTeacher";
 import Sardorbek from "../../assets/img/Sardorbek.png";
 import Zohidjon from "../../assets/img/Zohidjon.png";
 import Hamzatbek from "../../assets/img/Hamzatbek.png";

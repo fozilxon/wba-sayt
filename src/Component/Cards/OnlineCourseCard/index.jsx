@@ -12,9 +12,9 @@ import {
   Text,
   Btn,
 } from "./style";
-import img from "../../assets/img/onlineCard.png";
-import star from "../../assets/icon/star.svg";
-import more from "../../assets/icon/more.svg";
+import img from "../../../assets/img/onlineCard.png";
+import star from "../../../assets/icon/star.svg";
+import more from "../../../assets/icon/more.svg";
 
 export const OnlineCourseCard = ({ logo, name, price, status }) => {
   return (

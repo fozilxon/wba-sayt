@@ -10,10 +10,10 @@ import {
   Item,
   Btn,
 } from "./style";
-import cardInstagram from "../../assets/icon/cardInstagram.svg";
-import cardYoutobe from "../../assets/icon/cardYoutobe.svg";
-import cardFacebook from "../../assets/icon/cardFacebook.svg";
-import cardGithub from "../../assets/icon/cardGithub.svg";
+import cardInstagram from "../../../assets/icon/cardInstagram.svg";
+import cardYoutobe from "../../../assets/icon/cardYoutobe.svg";
+import cardFacebook from "../../../assets/icon/cardFacebook.svg";
+import cardGithub from "../../../assets/icon/cardGithub.svg";
 
 export const CardTeam = ({ img, name, status }) => {
   return (

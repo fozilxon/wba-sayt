@@ -1,5 +1,5 @@
 import React from "react";
-import OnlineCourseCard from "../OnlineCourseCard";
+import OnlineCourseCard from "../Cards/OnlineCourseCard";
 import { Container, Wrapper, Flexing, Title, Div, Img } from "./style";
 import Sardorbek from "../../assets/img/Sardorbek.png";
 import Zohidjon from "../../assets/img/Zohidjon.png";
