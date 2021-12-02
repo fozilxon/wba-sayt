@@ -74,7 +74,7 @@ export const Login = () => {
         </Flex>
 
         <Flex>
-          <Text>Not registered?</Text>
+          <Text right>Not registered?</Text>
           <Link to="/signUp">
             <Text black>
               <strong>Create account</strong>

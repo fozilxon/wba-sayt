@@ -53,8 +53,11 @@ export const Btn = styled.div`
   color: #2d4cc8;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.4s;
   :hover {
     box-shadow: inset -5px -5px 8px rgba(255, 255, 255, 0.64),
       inset 5px 5px 8px rgba(13, 39, 80, 0.16);
+    width: 205px;
+    height: 60px;
   }
 `;

@@ -14,7 +14,9 @@ export const Navbar = () => {
           <Item href="#">Team</Item>
         </NavLink>
         <Item href="#">Alumine</Item>
-        <Item href="#">Course</Item>
+        <NavLink activeStyle={{ color: "#2d4cc8" }} to="/course">
+          <Item href="#">Course</Item>
+        </NavLink>
         <Item href="#">YouTobe</Item>
       </NavItems>
 

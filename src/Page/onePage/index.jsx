@@ -16,7 +16,7 @@ export const OnePage = () => {
       <OurPartners />
       <Yutuqlar />
       <Kurs />
-      {/* <Youtobe /> */}
+      <Youtobe />
       <Sertifikat />
       <Footer />
     </div>

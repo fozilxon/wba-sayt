@@ -46,10 +46,3 @@ export const Container = styled.div`
   margin-top: 15px;
   margin-bottom: 15px;
 `;
-
-export const Con = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  z-index: 999;
-`;

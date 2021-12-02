@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  Wrapper,
-  Box,
-  Iframe,
-  Title,
-  BigContainer,
-  Container,
-  Con,
-} from "./style";
+import { Wrapper, Box, Iframe, Title, BigContainer, Container } from "./style";
 
 export const CardYoutobe = () => {
   const [link, setLink] = useState("https://www.youtube.com/embed/4Usso0EThIM");
@@ -32,24 +24,20 @@ export const CardYoutobe = () => {
         </BigContainer>
       </Box>
       <Box flexing>
-        <Container>
-          <Con
-            onClick={() => setLink("https://www.youtube.com/embed/OWh-5uaPnL0")}
-          >
-            <Iframe
-              small
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/OWh-5uaPnL0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></Iframe>
-            <Title small>
-              #2 HTML Tag | head, body, html, meta. HTML(UZBEK)
-            </Title>
-          </Con>
+        <Container
+          onClick={() => setLink("https://www.youtube.com/embed/OWh-5uaPnL0")}
+        >
+          <Iframe
+            small
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/OWh-5uaPnL0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></Iframe>
+          <Title small>#2 HTML Tag | head, body, html, meta. HTML(UZBEK)</Title>
         </Container>
         <Container>
           <Iframe

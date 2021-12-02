@@ -19,6 +19,7 @@ import {
   CircleIconCon,
   Wrapper,
 } from "./style";
+import { Link } from "react-router-dom";
 
 export const SignUp = () => {
   const [check, setCheck] = useState(false);
@@ -78,10 +79,12 @@ export const SignUp = () => {
         </Flex>
 
         <Flex>
-          <Text>Already have an account?</Text>
-          <Text black>
-            <strong>Login here</strong>
-          </Text>
+          <Text right>Already have an account?</Text>
+          <Link to="/login">
+            <Text black>
+              <strong>Login here</strong>
+            </Text>
+          </Link>
         </Flex>
       </Container>
     </Wrapper>

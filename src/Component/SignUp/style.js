@@ -31,6 +31,7 @@ export const Text = styled.p`
   margin-top: ${({ none }) => !none && "14px"};
   margin-bottom: 20px;
   margin-left: ${({ chap }) => chap && "90px"};
+  margin-right: ${({ right }) => right && "10px"};
 `;
 
 export const Texts = styled.p`
