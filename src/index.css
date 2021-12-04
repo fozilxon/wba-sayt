@@ -1,6 +1,10 @@
+/* * {
+  font-family: monospace;
+} */
+
 body {
   background-color: #e6e7ee;
   /* height: 5800px; */
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }

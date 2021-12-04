@@ -11,6 +11,9 @@ export const Conatiner = styled.div`
   position: sticky;
   top: 0;
   z-index: 1;
+  @media (max-width: 900px) {
+    height: 70px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -25,6 +28,11 @@ export const Title = styled.h1`
   color: blue;
   font-weight: 700;
   font-size: 23px;
+  @media (max-width: 900px) {
+    font-size: 18px;
+    width: 50px;
+    height: 37px;
+  }
 `;
 
 export const NavItems = styled.div`
@@ -41,6 +49,11 @@ export const Item = styled.a`
   cursor: pointer;
   :hover {
     color: blue;
+  }
+  @media (max-width: 900px) {
+    font-size: 13;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 `;
 
